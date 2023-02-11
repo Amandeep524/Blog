@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.title{
+    margin-left: 150px;
+    color: gray;
+    font-size: 25px;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    position: sticky;
+
+}
+.rightNav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: red; */
+    margin-right: 100px;
+}
+.rightNav ul li{
+    margin-right: 30px;
+    padding: 30px;
+    text-decoration: none;
+    list-style: none;
+    color: gray;
+}
+.rightNav ul li:hover{
+    color:green;
+
+}
+
+.rightNav a{
+    text-decoration: none;
+
+}
+
+.content{
+    margin-left: 100px;
+    padding: 10px;
+}
+.content p {
+  font-size: 20px;
+  font-weight: 500;
+  margin-right: 200px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: lightgreen;
+    text-align: center;
+}
+#more1 , #more2 {
+    display: none;
+   
+}
+#myBtn1 , #myBtn2{
+    color: blue;
+    border: none;
+    background-color: none;
+    cursor: pointer;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+
+}
+#postTitle{
+    width: 70%;
+    height: 50px;
+}
+#postDesc{
+    max-width: 70%;
+    height: 100px;
+}
+#buttonPublish{
+    width: 70px;
+    height: 30px;
+    margin-top: 20px;
+    background-color: blue;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
